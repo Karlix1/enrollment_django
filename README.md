@@ -1,1 +1,0 @@
-# enrollment_django

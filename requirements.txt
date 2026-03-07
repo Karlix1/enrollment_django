@@ -1,0 +1,4 @@
+Django>=6.0,<7
+djangorestframework
+django-cors-headers
+pymysql
