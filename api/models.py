@@ -1,10 +1,6 @@
 from django.db import models
 
 class Student(models.Model):
-    # The ERD says student_id is PK. Django adds an 'id' automatically, 
-    # but we can use your explicit ID if you want. 
-    # However, standard Django usually uses 'id' as PK and keeps 'student_id' as a unique field.
-    # I'll stick to standard Django PK for safety, but add your fields.
     
     first_name = models.CharField(max_length=255)
     last_name = models.CharField(max_length=255)
